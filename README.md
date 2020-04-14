@@ -155,9 +155,12 @@ Vrijdag zijn er feedbackgesprekken met Vasilis en Koop.
 Deze week hebben we een gesprek waarin we je vorderingen en bevindingen bespreken. We verwachten dat je op Github je tests en iteraties hebt beschreven. Belangrijk is dat je reflecteert op de leerdoelen van het vak.
 Lees hier de [criteria van opdracht 1](Opdracht1.md)
 
+### Agenda webapp voor Larissa(blind)
 
 
-
+#### Het idee
+Het idee is een product waarbij Larissa met de pijlen knoppen de site kan gebruiken. Als zij dan op een knop staat
+moet door de browser gezegd worden waar ze op staat.
 
 <!-- Add a link to your live demo in Github Pages 🌐-->
 

@@ -1,0 +1,30 @@
+{
+  "name": "web-design-1920",
+  "version": "1.0.0",
+  "description": "//Interactie ontwerpen: Rapid prototypen en testen met echte mensen",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heralt/web-design-1920.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/heralt/web-design-1920/issues"
+  },
+  "homepage": "https://github.com/heralt/web-design-1920#readme",
+  "dependencies": {
+    "browserify": "^16.5.1",
+    "ejs": "^3.0.2",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.2",
+    "speak-tts": "^2.0.8"
+  }
+}
