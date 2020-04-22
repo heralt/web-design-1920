@@ -1,4 +1,4 @@
-import Speech from '../speak-tts/src/speak-tts.js';
+import Speech from '../speak-tts/src/speak-tts';
 
 const speech = new Speech();
 
