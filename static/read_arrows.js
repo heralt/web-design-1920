@@ -60,12 +60,16 @@ window.addEventListener("keydown", ev => {
 window.addEventListener( "keydown", ev => {
     if(ev.key === "ArrowRight"){
         if(rate < 2){
+            speech.pause();
             speech.setRate(rate += 0.1);
+            speech.resume();
             console.log(rate);
         }
     } else if(ev.key === "ArrowLeft"){
-        if(rate > 0){
+        if(rate > 1){
+            speech.pause();
             speech.setRate(rate -= 0.1);
+            speech.resume();
             console.log(rate);
         }
     }
