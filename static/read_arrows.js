@@ -6,13 +6,14 @@ const speech = new Speech();
      console.log('has browser support');
  }
 
+ let rate = 1.1;
+
  speech.init({
      'lang': 'nl-NL',
-     'rate': 1.1,
+     'rate': rate,
      'pitch': 1,
      'volume': 1,
  });
-
 
 const li = $('li');
 let liSelected;
@@ -53,6 +54,20 @@ window.addEventListener("keydown", ev => {
         let agenda_tab = liSelected[0].innerText;
         /*something(agenda_tab);*/
         speek.programTab(agenda_tab)
+    }
+});
+
+window.addEventListener( "keydown", ev => {
+    if(ev.key === "ArrowRight"){
+        if(rate < 2){
+            speech.setRate(rate += 0.1);
+            console.log(rate);
+        }
+    } else if(ev.key === "ArrowLeft"){
+        if(rate > 0){
+            speech.setRate(rate -= 0.1);
+            console.log(rate);
+        }
     }
 });
 
