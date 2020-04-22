@@ -13,6 +13,7 @@ const speech = new Speech();
      'volume': 1,
  });
 
+
 const li = $('li');
 let liSelected;
 
@@ -77,29 +78,35 @@ const speek = {
     }
 };
 
+let groet = 0;
+
 const schedule = {
     vandaag: function(){
-        let vandaag = 'Woensdag 22 april;';
-        vandaag += 'Je hebt baan training van 9 tot 1; massage om 16:15; ';
+        let vandaag = '';
+        if(groet < 1){
+            vandaag += 'Hey Larissa, welkom bij jouw agenda.';
+            groet++;
+        }
+        vandaag += 'vandaag, woensdag 22 april;';
+        vandaag += 'Je hebt baan training van 9 tot 1;; en een massage om 16:15; ';
         return vandaag;
     },
     week: function() {
-        let week = 'Morgen heb je, ';
-         week += '';
-         week += 'vrijdag heb je';
-         week += 'zaterdag heb je';
-         week += 'zondag heb je';
+        let week = 'Morgen heb je baan training van 2 tot 5;;';
+         week += 'vrijdag heb je baan training van 9 tot 1;; daarna 1,5 uur weg training;;neem je full gear mee;;';
+         week += 'zaterdag heb je kracht training van 08:45 tot 10:30;;  daarna baan of weg training;;';
+         week += ' en zondag heb je baan training van 9 tot 1';
         return week;
     },
     maand: function(){
         let maand = 'Hier is je maand planning van april 2020.';
-        maand += 'Het bestaat uit twee fases, Hypertrophy van 1 april tot 17 april en, Anaerobe capaciteit-krachtduur van ' +
+        maand += 'Het bestaat uit twee fases;; Hypertrophy van 1 april tot 17 april en;; Anaerobe capaciteit-krachtduur van ' +
             '18 tot 30 april. ';
-        maand += 'je hebt 7 trainingen en 1 wedstrijd in April.';
-        maand += 'Je traint op,, 2 april van 3 tot 5, 7 april van 10 tot 1, 10 april van 10 tot 12:30, 14 april van 11 tot 1' +
-            ', 21 april van 10 tot 1, 24 april van 10 tot 1, ' +
+        maand += 'je hebt 7 trainingen en 1 wedstrijd in deze maand.';
+        maand += 'Je traint op;; 2 april van 3 tot 5;; 7 april van 10 tot 1;; 10 april van 10 tot 12:30;; 14 april van 11 tot 1' +
+            ';; 21 april van 10 tot 1;; 24 april van 10 tot 1, ' +
             '28 april van 10 tot 1.';
-        maand += 'Verder heb je 1 oefenwedstrijd op 17 april, van 10 tot 1.';
+        maand += 'Verder heb je 1 oefenwedstrijd op 17 april;; van 10 tot 1.';
         return maand;
     }
 };
