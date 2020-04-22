@@ -95,7 +95,7 @@ const schedule = {
         let maand = 'Hier is je maand planning van april 2020.';
         maand += 'Het bestaat uit twee fases, Hypertrophy van 1 april tot 17 april en, Anaerobe capaciteit-krachtduur van ' +
             '18 tot 30 april. ';
-        maand += 'je hebt 7 trainingen en 1 wedstrijd.';
+        maand += 'je hebt 7 trainingen en 1 wedstrijd in April.';
         maand += 'Je traint op,, 2 april van 3 tot 5, 7 april van 10 tot 1, 10 april van 10 tot 12:30, 14 april van 11 tot 1' +
             ', 21 april van 10 tot 1, 24 april van 10 tot 1, ' +
             '28 april van 10 tot 1.';
