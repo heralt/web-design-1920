@@ -29,5 +29,8 @@ De rest van de tests waren het testen van de prototypes. Voor het gesprek met La
 De resultaten van de tests staan geschreven in mijn wiki: [Test resultaten](https://github.com/heralt/web-design-1920/wiki/Tests)
 
 ### Exclusive design principles
+Exclusive design principles zijn de principes die wij hebben gebruikt om een product te ontwikkelen van een persoon. Deze zijn het tegenovergestelde van de inclusive design principles, waarbij een product voor meerdere mensen ontwikkeld is en dus voor meerdere mensen fijn in gebruik zou moeten zijn. 
 
+#### study situation 
+Tijdens de testen probeerde we vragen te stellen en te observeren hoe Larissa het gebruiken van het internet ervaart. De resultaten van de vragen en de opmerkelijke dingen die we gezien hebben, gebruikten wij om onze producten te ontwikkelen.
 
