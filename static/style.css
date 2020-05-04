@@ -1,8 +1,27 @@
-
-li.selected {
-    background-color: cadetblue;
+body, html {
+    height: 100%;
+    margin: 0;
 }
 
-div {
+#container {
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+}
+
+li.selected {
+    background-color: white;
+}
+
+#search {
     border: black solid 1px;
+}
+
+#body {
+    flex: 1 1 100px;
+}
+
+#body > h1 {
+    text-align: center;
+    vertical-align: bottom;
 }

@@ -9,18 +9,18 @@
     <title>Agenda app</title>
 
 </head>
-<body>
-<div>
-    <ul id="lijst">
-        <li>vandaag</li>
-        <li>week</li>
-        <li>maand</li>
-    </ul>
-</div>
-<div style="margin-top: 10px">
-    data
+<body style="background-color: darkslategrey">
+<div id="container">
+    <div id="search">
+        <ul id="lijst">
+            <li>vandaag</li>
+            <li>week</li>
+            <li>maand</li>
+        </ul>
+    </div>
+    <div id="body"></div>
 </div>
 </body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script src="speak-tts.min.js"></script>
+<script type="module" src="speak-tts.min.js"></script>
 </html>
