@@ -12,6 +12,7 @@ const speech = new Speech();
 let rate = 1.2;
 let tabPos = 0;
 let maandPos = 0;
+let groet = 0;
 
  speech.init({
      'lang': 'nl-NL',
@@ -64,13 +65,28 @@ window.addEventListener("keydown", ev => {
 
     if(ev.key === "ArrowRight"){
         if(agenda_tab === "vandaag"){
-            tabPos = 0;
+            if(tabPos < dag.length-1){tabPos += 1;}
+            else{tabPos = 1}
         } else if(agenda_tab === "week"){
             if(tabPos < week.length-1){tabPos += 1;}
             else{tabPos = 1}
         } else if(agenda_tab === "maand"){
             if(tabPos < maanden[maandPos].maand.length-1){tabPos += 1;}
             else{tabPos = 0}
+        }
+        speek.programTab(agenda_tab,tabPos,maandPos)
+    }
+
+    if(ev.key === "ArrowLeft"){
+        if(agenda_tab === "vandaag"){
+            if(tabPos > 0){tabPos -= 1;}
+            else{tabPos = week.length-1}
+        } else if(agenda_tab === "week"){
+            if(tabPos > 0){tabPos -= 1;}
+            else{tabPos = week.length-1}
+        } else if(agenda_tab === "maand"){
+            if(tabPos > 0){tabPos -= 1;}
+            else{tabPos = maanden[maandPos].maand.length-1}
         }
         speek.programTab(agenda_tab,tabPos,maandPos)
     }
@@ -83,8 +99,9 @@ window.addEventListener("keydown", ev => {
         speek.programTab(agenda_tab,tabPos,maandPos);
     }
 
-    document.getElementById("body").innerHTML = `<h1>${agenda_tab}</h1>`;
+    document.getElementById("body").innerHTML = `<h1><strong>${agenda_tab}</strong></h1>`;
 });
+
 
 const speek = {
     programTab: function(tab,pos,posMaand){
@@ -109,7 +126,8 @@ const speek = {
 };
 
 const dag = [
-    {dag:'vandaag;; '},
+    {dag:'Hey Larissa, hoe gaat het;;'},
+    {dag:'vandaag;; '}
 ];
 
 const week = [
@@ -117,10 +135,10 @@ const week = [
     {dag: "maandag;; 17:00 vanaf Schiphol naar 22:00 te Anadia"},
     {dag: "dinsdag;; Vrachtauto legen op de wielerbaan;; baangewenning"},
     {dag: "woensdag;; Je hebt baan training van 9 tot 1;; en een massage om 16:15;"},
-    {dag: "donderdag;; je baan training van 2 tot 5;;"},
-    {dag: "vrijdag;; baan training van 9 tot 1;; daarna 1,5 uur weg training;;neem je full gear mee;;"},
-    {dag: "zaterdag;; kracht training van 08:45 tot 10:30;;  daarna baan of weg training;;"},
-    {dag: "zondag;; baan training van 9 tot 1"},
+    {dag: "donderdag;; je hebt baan training van 2 tot 5;;"},
+    {dag: "vrijdag;; je hebt baan training van 9 tot 1;; daarna 1,5 uur weg training;;neem je full gear mee;;"},
+    {dag: "zaterdag;; je hebt kracht training van 08:45 tot 10:30;;  daarna baan of weg training;;"},
+    {dag: "zondag;; je hebt baan training van 9 tot 1"},
 ];
 
 const maanden = [

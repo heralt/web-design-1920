@@ -24,4 +24,6 @@ li.selected {
 #body > h1 {
     text-align: center;
     vertical-align: bottom;
+    font-size: 250px;
+    color: white;
 }
