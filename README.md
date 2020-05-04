@@ -32,5 +32,18 @@ De resultaten van de tests staan geschreven in mijn wiki: [Test resultaten](http
 Exclusive design principles zijn de principes die wij hebben gebruikt om een product te ontwikkelen van een persoon. Deze zijn het tegenovergestelde van de inclusive design principles, waarbij een product voor meerdere mensen ontwikkeld is en dus voor meerdere mensen fijn in gebruik zou moeten zijn. 
 
 #### study situation 
-Tijdens de testen probeerde we vragen te stellen en te observeren hoe Larissa het gebruiken van het internet ervaart. De resultaten van de vragen en de opmerkelijke dingen die we gezien hebben, gebruikten wij om onze producten te ontwikkelen.
+Hiermee wordt bedoelt dat er gekeken moet worden naar hoe de persoon waarvoor het product ontwikkeld wordt, jouw product en andere producten ervaart en gebruikt. Wat de resultaten van het observeren en vragen kunnen gebruikt worden om jouw product te ontwikkelen. 
+
+Tijdens de testen probeerde we vragen te stellen en te observeren hoe Larissa het gebruiken van het internet ervaart. De resultaten van de vragen en de opmerkelijke dingen die we gezien hebben, gebruikten wij om onze producten te ontwikkelen. Bijvoorbeeld, het viel mij op dat ze de snelheid van haar screenreader kan aanpassen, dus in mijn text-to-speech programma kan ze de snelheid aanpassen.
+
+#### Ignore conventions
+Omdat er niet heelveel voor alleen blinde mensen sites ontwikkeld wordt, zijn er niet veel verschillende design principes die gebruikt kunnen worden tijdens het van een app voor hun. Hierdoor moet je dus zelf gaan experimenteren.
+
+Mijn experiment was het gebruiken van een text-to-speech programma. Zelf vond ik het gebruiken van de screenreader heel vervelend, want het gaf informatie over de html tags en de knoppen waar de focus op lag. Dit was informatie die de gebruikers ervaring niet beter maakte. Door het gebruiken van een tts programma word alleen de informatie aan de gebruiker gegeven en verder niets. 
+
+#### Prioritise identity
+
+#### Add nonsense
+Dit betekent dat je tijdens het ontwikkelen, je kleine features kan toevoegen die niet veel toegevoegde waarde hebben, maar wel leuk zijn. 
+
 
