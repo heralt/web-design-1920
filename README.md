@@ -28,6 +28,8 @@ De rest van de tests waren het testen van de prototypes. Voor het gesprek met La
 ### Test resultaten 
 De resultaten van de tests staan geschreven in mijn wiki: [Test resultaten](https://github.com/heralt/web-design-1920/wiki/Tests)
 
+#### conclusie van tests
+
 ### Exclusive design principles
 Exclusive design principles zijn de principes die wij hebben gebruikt om een product te ontwikkelen van een persoon. Deze zijn het tegenovergestelde van de inclusive design principles, waarbij een product voor meerdere mensen ontwikkeld is en dus voor meerdere mensen fijn in gebruik zou moeten zijn. 
 
@@ -42,8 +44,12 @@ Omdat er niet heelveel voor alleen blinde mensen sites ontwikkeld wordt, zijn er
 Mijn experiment was het gebruiken van een text-to-speech programma. Zelf vond ik het gebruiken van de screenreader heel vervelend, want het gaf informatie over de html tags en de knoppen waar de focus op lag. Dit was informatie die de gebruikers ervaring niet beter maakte. Door het gebruiken van een tts programma word alleen de informatie aan de gebruiker gegeven en verder niets. 
 
 #### Prioritise identity
+Je kan de identiteit van een persoon gebruiken om een product te ontwikkelen. Karakter eigenschappen, hobbies etc.
+
+Tijdens het beter leren kennen en testen hebben we aan Larissa gevraagd wat zei fijn vind tijdens het gebruiken van andere apps, wat zei belangrijke informatie vind in haar agenda en verder ook gevraagd naar haar hobbies. Dit hebben we dan gebruikt om product te ontwikkelen dat helemaal op haar is afgestemd. 
+En ze vind paarden leuk.
 
 #### Add nonsense
 Dit betekent dat je tijdens het ontwikkelen, je kleine features kan toevoegen die niet veel toegevoegde waarde hebben, maar wel leuk zijn. 
 
-
+Larissa vond het leuk als er een paar leuke berichten in de app zitten. Maar niet te veel, want dat kan het gebruiken van de app vervelend maken. 
