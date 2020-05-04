@@ -30,7 +30,7 @@ De resultaten van de tests staan geschreven in mijn wiki: [Test resultaten](http
 
 #### conclusie van tests
 
-### Exclusive design principles
+## Exclusive design principles
 Exclusive design principles zijn de principes die wij hebben gebruikt om een product te ontwikkelen van een persoon. Deze zijn het tegenovergestelde van de inclusive design principles, waarbij een product voor meerdere mensen ontwikkeld is en dus voor meerdere mensen fijn in gebruik zou moeten zijn. 
 
 #### study situation 
