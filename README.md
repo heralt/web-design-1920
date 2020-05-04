@@ -7,10 +7,7 @@ In het vak Web design gaan we dingen ontwerpen voor echte mensen. Is er goede in
 ## Agenda webapp voor Larissa
 Het doel van webdesign is het ontwikkelen van een applicatie voor een individu. Tijdens het ontwikkelen moet het product constant getest en geitereerd worden. Dit zou ervoor moeten zorgen dat aan het einde van dit vak er een product staat dat precies is afgestemd op de persoon waarvoor het ontwikkeld is. 
 
-De persoon waarvoor ik dit product ontwikkel is Larissa. Zij is blind en tandemwielrenner op top niveau. Dit jaar zou ze meedoen aan de olympische spelen, dat is het niveau waarop zei fietst. Als topsporter heeft zei een druk schema, want je bent constant aan het trainen. Zei heeft een schema dat ze wekelijks krijgt en een jaar planning. Dit is waar het probleem ligt, zei kan de schema's niet in haar eentje doornemen. Dit doet ze momenteel met haar tandem partner. Ik heb een manier bedacht waarbij ze wel in haar eentje de schema's kan doornemen. 
-
-### Het idee
-Het idee is een product waarbij Larissa met de pijlen knoppen de site kan gebruiken.
+De persoon waarvoor ik dit product ontwikkel is Larissa. Zij is blind en tandemwielrenner op top niveau. Dit jaar zou ze meedoen aan de olympische spelen, dat is het niveau waarop zei fietst. Als topsporter heeft zei een druk schema, want je bent constant aan het trainen. Zei heeft een schema dat ze wekelijks krijgt en een jaar planning. Dit is waar het probleem ligt, zei kan de schema's niet in haar eentje doornemen. Dit doet ze momenteel met haar tandem partner. Ik heb een manier bedacht waarbij ze wel in haar eentje de schema's kan doornemen.
 
 ### inhoudsopgave
 - [User scenario](#User-scenario)
@@ -18,6 +15,8 @@ Het idee is een product waarbij Larissa met de pijlen knoppen de site kan gebrui
 - [Test resultaten](#Test-resultaten)
 - [Exclusive design principles](#Exclusive-design-principles)
 
+### Link 
+agenda app: [link](https://blind-agenda-app.herokuapp.com/).
 ### User scenario
 
 ### Test voorbereiding
@@ -29,6 +28,7 @@ De rest van de tests waren het testen van de prototypes. Voor het gesprek met La
 De resultaten van de tests staan geschreven in mijn wiki: [Test resultaten](https://github.com/heralt/web-design-1920/wiki/Tests)
 
 #### conclusie van tests
+
 
 ## Exclusive design principles
 Exclusive design principles zijn de principes die wij hebben gebruikt om een product te ontwikkelen van een persoon. Deze zijn het tegenovergestelde van de inclusive design principles, waarbij een product voor meerdere mensen ontwikkeld is en dus voor meerdere mensen fijn in gebruik zou moeten zijn. 
