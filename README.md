@@ -21,5 +21,6 @@ De eerste test was vooral om Larissa wat beter te leren kennen en wat vragen te 
 
 De rest van de tests waren het testen van de prototypes. Voor het gesprek met Larissa zette we allemaal de link van onze app in de slack groep, en Chelsea mailde deze lijst door naar Larissa. Larissa ging er dan een voor een doorheen. Ieder persoon kwam dan aan de beurt en kon zijn/haar app laten testen en vragen stellen.
 
-
+#### Tests 
+De resultaten van de tests staan geschreven in mijn wiki: [Test resultaten](https://github.com/heralt/web-design-1920/wiki/Tests)
 
