@@ -79,7 +79,7 @@ window.addEventListener("keydown", ev => {
 
     if(ev.key === "ArrowLeft"){
         if(agenda_tab === "vandaag"){
-            if(tabPos > 0){tabPos -= 1;}
+            if(tabPos > 1){tabPos -= 1;}
             else{tabPos = week.length-1}
         } else if(agenda_tab === "week"){
             if(tabPos > 0){tabPos -= 1;}
@@ -126,15 +126,16 @@ const speek = {
 };
 
 const dag = [
-    {dag:'Hey Larissa, hoe gaat het;;'},
-    {dag:'vandaag;; '}
+    {dag:'Hey Larissa, hoe gaat het. Met de pijlknop naar beneden ga je van dag naar week naar maand;; ' +
+            'met de rechter pijl toets ga je naar de volgende tab en de linker pijl toets ga je naar de vorige;;'},
+    {dag:'vandaag;; Baan training van 9 tot 1;; herstel massage om 16:15;;'}
 ];
 
 const week = [
     {dag: "weekplanning;;"},
     {dag: "maandag;; 17:00 vanaf Schiphol naar 22:00 te Anadia"},
     {dag: "dinsdag;; Vrachtauto legen op de wielerbaan;; baangewenning"},
-    {dag: "woensdag;; Je hebt baan training van 9 tot 1;; en een massage om 16:15;"},
+    {dag: "woensdag;; Je hebt baan training van 9 tot 1;; en een massage om 16:15;;"},
     {dag: "donderdag;; je hebt baan training van 2 tot 5;;"},
     {dag: "vrijdag;; je hebt baan training van 9 tot 1;; daarna 1,5 uur weg training;;neem je full gear mee;;"},
     {dag: "zaterdag;; je hebt kracht training van 08:45 tot 10:30;;  daarna baan of weg training;;"},
