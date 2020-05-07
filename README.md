@@ -30,6 +30,20 @@ tab **maand** navigeren over trainingen/wedstrijden/periodes
 tab **maand** van maand naar maand
 
 ## User scenario
+
+### Wie is de gebruiker?
+Dit product is ontwikkeld voor Larissa. Larissa is tandemwielrenner op topniveau, paardrij hobbyist, maar ze is ook heel slechtziend. Ze kan nog kleuren zien en constrasten tussen kleuren als het contrast groot genoeg is. Om deze rede gebruikt zij een screenreader, omdat haar ogen gebruiken heel veel moeite kost. 
+
+### Wat wilt de gebruiker op mijn site?
+Als Larissa haar schema zou willen doornemen, heeft zij haar tandempartner nodig. Dit zou zij alleen willen doen. Naast dat ze het niet kan lezen, is het schema erg onduidelijk. Zij zou het fijn vinden als ze alleen haar schema kan checken en dat de informatie te horen krijgt die duidelijk is. De informatie moet naast duidelijk, ook fijn verdeeld zijn in hapgrootte stukken.
+
+### Hoe gaat de gebruiker zijn doel bereiken?
+Omdat Larissa slechtziend tot blind is moet de informatie op de site gesproken worden met een screenreader of text-to-speech programma, hiervoor gebruik ik een text-to-speech programma. Verder vind ze het heel fijn om de pijlen toetsen te gebruiken om over een site te navigeren, dus zal dit worden toegepast.
+
+### Waarom zou de gebruiker mijn site bezoeken?
+Voor het zo fijn mogelijk krijgen van haar informatie, door gebruik te maken van de `pijlen` en `enter` toetsen. En omdat de informatie verdeeld is op een manier dat ze niet naar extra informatie hoeft te luisteren als ze dat niet wilt. 
+
+### scenario
 Tijdens het ontbijten checkt Sandra altijd wat er vandaag op de training behandelt gaat worden. Ze gaat naar haar agenda app en gaat naar de tab vandaag en checkt wat er op de planning staat. Ze hoort het type training en de tijden en bereidt zich voor op een intensieve training. Nu ze toch al op de site is, herinnert ze zich dat ze moet weten hoelaat ze donderdag klaar is met trainen, want ze had met vrienden afgesproken om te gaan paardrijden. Ze gaat naar de week tab en checkt wat ze donderdag op de planning heeft staan, en laat haar vriendinnen weten hoelaat ze kan afspreken. 
 
 ## Test voorbereiding
