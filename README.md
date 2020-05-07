@@ -12,10 +12,10 @@ De persoon waarvoor ik dit product ontwikkel is Larissa. Zij is blind en tandemw
  
 ## :book: inhoudsopgave
 - [Link](#computer-link)
-- [User scenario](#-User-scenario)
-- [Tests voorbereiding](#-Test-voorbereiding)
+- [User scenario](#performing_arts-scenario)
+- [Tests voorbereiding](#memo-Test-voorbereiding)
 - [Test resultaten](#-Test-resultaten)
-- [Exclusive design principles](#-Exclusive-design-principles)
+- [Exclusive design principles](#heavy_check_mark-Exclusive-design-principles)
 
 ## :computer: Link 
 agenda app: [link](https://blind-agenda-app.herokuapp.com/).
