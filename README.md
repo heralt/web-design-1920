@@ -15,7 +15,7 @@ De persoon waarvoor ik dit product ontwikkel is Larissa. Zij is blind en tandemw
 - [Test resultaten](#Test-resultaten)
 - [Exclusive design principles](#Exclusive-design-principles)
 
-## Link 
+## :computer: Link 
 agenda app: [link](https://blind-agenda-app.herokuapp.com/).
 
 ### Controls
