@@ -60,7 +60,7 @@ Exclusive design principles zijn de principes die wij hebben gebruikt om een pro
 
  *Hiermee wordt bedoelt dat er gekeken moet worden naar naar de persoon zelf en hoe de persoon, jouw product en andere producten ervaart en gebruikt. Wat vinden ze fijn, wat vinden ze minder fijn etc. De resultaten van het observeren en vragen kunnen gebruikt worden om jouw product te ontwikkelen.*
 
-Tijdens de testen probeerde we vragen te stellen en te observeren hoe Larissa het gebruiken van het internet ervaart. De resultaten van de vragen en de opmerkelijke dingen die we gezien hebben, gebruikten wij om onze producten te ontwikkelen. Bijvoorbeeld, het viel mij op dat ze de snelheid van haar screenreader hoog had staan, dus in mijn text-to-speech programma staat de snelheid van de spraak op een hoog tempo.
+Tijdens de tests stelden we vragen en observeerde we hoe Larissa het gebruiken van het internet ervaart. De resultaten van de vragen en de opmerkelijke dingen die we gezien hebben, gebruikten wij om onze producten te ontwikkelen. Bijvoorbeeld, het viel mij op dat ze de snelheid van haar screenreader hoog had staan, dus in mijn text-to-speech programma staat de snelheid van de spraak op een hoog tempo.
 
 ### Ignore conventions
 Omdat er niet heelveel voor alleen blinde mensen sites ontwikkeld wordt, zijn er niet veel verschillende design principes die gebruikt kunnen worden tijdens het van een app voor hun. Hierdoor moet je dus zelf gaan experimenteren.
