@@ -26,8 +26,7 @@ agenda app: [link](https://blind-agenda-app.herokuapp.com/).
 tab **week** navigeren over dagen 
 
 tab **maand** navigeren over trainingen/wedstrijden/periodes 
-- `enter` selecteert een element
-tab **maand** van maand naar maand
+- `enter` tab **maand** van maand naar maand
 
 ## User scenario
 
