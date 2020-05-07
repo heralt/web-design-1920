@@ -14,7 +14,6 @@ De persoon waarvoor ik dit product ontwikkel is Larissa. Zij is blind en tandemw
 - [Link](#computer-link)
 - [User scenario](#performing_arts-User-scenario)
 - [Tests voorbereiding](#memo-Test-voorbereiding)
-- [Test resultaten](#-Test-resultaten)
 - [Exclusive design principles](#heavy_check_mark-Exclusive-design-principles)
 
 ## :computer: Link 
