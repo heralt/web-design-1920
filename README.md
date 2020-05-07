@@ -10,10 +10,10 @@ Het doel van het vak webdesign is het ontwikkelen van een applicatie voor een pe
 De persoon waarvoor ik dit product ontwikkel is Larissa. Zij is blind en tandemwielrenner op top niveau. Dit jaar zou ze meedoen aan de olympische spelen, dat is het niveau waarop zei fietst. Als topsporter heeft zei een druk schema, want je bent constant aan het trainen. Zei heeft een schema dat ze wekelijks krijgt en een jaar planning. Dit is waar het probleem ligt, zei kan de schema's niet in haar eentje doornemen. Dit doet ze momenteel met haar tandem partner. Ik heb een manier bedacht waarbij ze wel in haar eentje de schema's kan doornemen.
 
 ## :book: inhoudsopgave
-- [User scenario](#User-scenario)
-- [Tests voorbereiding](#Test-voorbereiding)
-- [Test resultaten](#Test-resultaten)
-- [Exclusive design principles](#:heavy_check_mark:-Exclusive-design-principles)
+- [User scenario](#-User-scenario)
+- [Tests voorbereiding](#-Test-voorbereiding)
+- [Test resultaten](#-Test-resultaten)
+- [Exclusive design principles](#-Exclusive-design-principles)
 
 ## :computer: Link 
 agenda app: [link](https://blind-agenda-app.herokuapp.com/).
