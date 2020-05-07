@@ -19,7 +19,7 @@ De persoon waarvoor ik dit product ontwikkel is Larissa. Zij is blind en tandemw
 
 ## :computer: Link 
 ![Prototype image](images/tweede_itteratie.png)
-[agenda app link](https://blind-agenda-app.herokuapp.com/).
+[agenda app link](https://blind-agenda-app.herokuapp.com/)
 
 ### Controls
 
