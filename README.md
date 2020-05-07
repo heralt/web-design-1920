@@ -63,17 +63,17 @@ Exclusive design principles zijn de principes die wij hebben gebruikt om een pro
 Tijdens de tests stelden we vragen en observeerde we hoe Larissa het gebruiken van het internet ervaart. De resultaten van de vragen en de opmerkelijke dingen die we gezien hebben, gebruikten wij om onze producten te ontwikkelen. Bijvoorbeeld, het viel mij op dat ze de snelheid van haar screenreader hoog had staan, dus in mijn text-to-speech programma staat de snelheid van de spraak op een hoog tempo.
 
 ### Ignore conventions
-Omdat er niet heelveel voor alleen blinde mensen sites ontwikkeld wordt, zijn er niet veel verschillende design principes die gebruikt kunnen worden tijdens het van een app voor hun. Hierdoor moet je dus zelf gaan experimenteren.
+*Omdat er niet heelveel voor alleen blinde mensen sites ontwikkeld wordt, zijn er niet veel verschillende design principes die gebruikt kunnen worden tijdens het van een app voor hun. Hierdoor moet je dus zelf gaan experimenteren.*
 
 Mijn experiment was het gebruiken van een text-to-speech programma. Zelf vond ik het gebruiken van de screenreader heel vervelend, want het gaf informatie over de html tags en de knoppen waar de focus op lag. Dit was informatie die de gebruikers ervaring niet beter maakte. Door het gebruiken van een tts programma word alleen de informatie aan de gebruiker gegeven en verder niets. 
 
 ### Prioritise identity
-Je kan de identiteit van een persoon gebruiken om een product te ontwikkelen. Karakter eigenschappen, hobbies etc.
+*Je kan de identiteit van een persoon gebruiken om een product te ontwikkelen. Karakter eigenschappen, hobbies etc.*
 
 Tijdens het beter leren kennen en testen hebben we aan Larissa gevraagd wat zei fijn vind tijdens het gebruiken van andere apps, wat zei belangrijke informatie vind in haar agenda en verder ook gevraagd naar haar hobbies. Dit hebben we dan gebruikt om product te ontwikkelen dat helemaal op haar is afgestemd. 
 En ze vind paarden leuk.
 
 ### Add nonsense
-Dit betekent dat je tijdens het ontwikkelen, je kleine features kan toevoegen die niet veel toegevoegde waarde hebben, maar wel leuk zijn. 
+*Dit betekent dat je tijdens het ontwikkelen, kleine features kan toevoegen die niet veel toegevoegde waarde hebben, maar wel leuk zijn.*
 
 Larissa vond het leuk als er een paar leuke berichten in de app zitten. Maar niet te veel, want dat kan het gebruiken van de app vervelend maken. 
