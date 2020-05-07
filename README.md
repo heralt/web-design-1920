@@ -18,6 +18,17 @@ De persoon waarvoor ik dit product ontwikkel is Larissa. Zij is blind en tandemw
 ### Link 
 agenda app: [link](https://blind-agenda-app.herokuapp.com/).
 
+### Controls
+
+- `arrow up` `arrow down` navigeren over dag/week/maand
+- `arrow left` `arrow right`: 
+
+tab **week** navigeren over dagen 
+
+tab **maand** navigeren over trainingen/wedstrijden/periodes 
+- `enter` selecteert een element
+tab **maand** van maand naar maand
+
 ### User scenario
 Tijdens het ontbijten checkt Sandra altijd wat er vandaag op de training behandelt gaat worden. Ze gaat naar haar agenda app en gaat naar de tab vandaag en checkt wat er op de planning staat. Ze hoort het type training en de tijden en bereidt zich voor op een intensieve training. Nu ze toch al op de site is, herinnert ze zich dat ze moet weten hoelaat ze donderdag klaar is met trainen, want ze had met vrienden afgesproken om te gaan paardrijden. Ze gaat naar de week tab en checkt wat ze donderdag op de planning heeft staan, en laat haar vriendinnen weten hoelaat ze kan afspreken. 
 
