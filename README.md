@@ -53,7 +53,7 @@ De rest van de tests waren het testen van de prototypes. Voor het gesprek met La
 ### :microscope: Test resultaten 
 De resultaten van de tests staan geschreven in mijn wiki: [Test resultaten](https://github.com/heralt/web-design-1920/wiki/Tests)
 
-## Exclusive design principles
+## :heavy_check_mark: Exclusive design principles
 Exclusive design principles zijn de principes die wij hebben gebruikt om een product te ontwikkelen van een persoon. De vier principes zijn: **study situation**, **ignore conventions**, **prioritise identity** en **add nonsense**. Deze zijn het tegenovergestelde van de inclusive design principles, waarbij een product voor meerdere mensen ontwikkeld is en dus voor meerdere mensen fijn in gebruik zou moeten zijn. 
 
 ### study situation 
