@@ -28,7 +28,7 @@ tab **week** navigeren over dagen
 tab **maand** navigeren over trainingen/wedstrijden/periodes 
 - `enter` tab **maand** van maand naar maand
 
-## User scenario
+## :performing_arts: User scenario
 
 ### Wie is de gebruiker?
 Dit product is ontwikkeld voor Larissa. Larissa is tandemwielrenner op topniveau, paardrij hobbyist, maar ze is ook heel slechtziend. Ze kan nog kleuren zien en constrasten tussen kleuren als het contrast groot genoeg is. Om deze rede gebruikt zij een screenreader, omdat haar ogen gebruiken heel veel moeite kost. 
