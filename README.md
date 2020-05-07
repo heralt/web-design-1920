@@ -11,7 +11,7 @@ De persoon waarvoor ik dit product ontwikkel is Larissa. Zij is blind en tandemw
 
  
 ## :book: inhoudsopgave
-- [Link](#Link)
+- [Link](#computer-link)
 - [User scenario](#-User-scenario)
 - [Tests voorbereiding](#-Test-voorbereiding)
 - [Test resultaten](#-Test-resultaten)
