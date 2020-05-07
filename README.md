@@ -30,6 +30,7 @@ tab **week** navigeren over dagen
 
 tab **maand** navigeren over trainingen/wedstrijden/periodes 
 - `enter` tab **maand** van maand naar maand
+- `space` pauses and resumes speech
 
 ## :performing_arts: User scenario
 
