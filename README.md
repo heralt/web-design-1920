@@ -1,181 +1,81 @@
-# Web Design @cmda-minor-web 1920
-//Interactie ontwerpen: Rapid prototypen en testen met echte mensen
+# :mortar_board: Web Design @cmda-minor-web 1920
 
 Web Design gaat over het ontwerpen en testen van Interactie. Het voordeel van een Frontend Developer (en Web Designer) is dat die techniek begrijpt, kan toepassen én verstand heeft van UX en design. Als je Web technieken begrijpt kun je je ideeën snel prototypen en testen met echte gebruikers, in een browser. Je kan dan aanpassingen doorvoeren, uitproberen en weer testen ...
 
 In het vak Web design gaan we dingen ontwerpen voor echte mensen. Is er goede interactie? Kan je 'mens' je product op een prettige manier bedienen? Wat voor principes heb je gebruikt en getest? En zit er wel _nonsense_ in?
 
+## :sound: Agenda webapp voor Larissa
+Het doel van het vak webdesign is het ontwikkelen van een applicatie voor een persoon. Tijdens het ontwikkelen moet het product constant getest en geitereerd worden. Dit zou ervoor moeten zorgen dat aan het einde van dit vak er een product staat dat precies is afgestemd op de persoon waarvoor het ontwikkeld is. 
 
-## Opdracht 1 - Ontwerpen met en voor echte mensen
-Voor dit vak krijg je een ontwerp-opdracht die je gaat maken voor 1 mens. Een echt mens. Je moet je ontwerp 3 keer testen. Door te testen en te itereren ga je je ontwerp verbeteren. Uiteindelijk heb je een ontwerp dat exclusief gemaakt is voor 1 persoon. Een _exclusive design_ ... Wie is deze persoon dan voor wie je dit gaat maken? Wat vindt deze persoon leuk of juist niet? En hoe bedient deze persoon een computer?
+De persoon waarvoor ik dit product ontwikkel is Larissa. Zij is blind en tandemwielrenner op top niveau. Dit jaar zou ze meedoen aan de olympische spelen, dat is het niveau waarop zei fietst. Als topsporter heeft zei een druk schema, want je bent constant aan het trainen. Zei heeft een schema dat ze wekelijks krijgt en een jaar planning. Dit is waar het probleem ligt, zei kan de schema's niet in haar eentje doornemen. Dit doet ze momenteel met haar tandem partner. Ik heb een manier bedacht waarbij ze wel in haar eentje de schema's kan doornemen.
 
-- [Opdracht 1 - Ontwerpen met en voor echte mensen](Opdracht1.md)
+ 
+## :book: inhoudsopgave
+- [Link](#computer-link)
+- [User scenario](#performing_arts-User-scenario)
+- [Tests voorbereiding](#memo-Test-voorbereiding)
+- [Test resultaten](#-Test-resultaten)
+- [Exclusive design principles](#heavy_check_mark-Exclusive-design-principles)
 
+## :computer: Link 
+agenda app: [link](https://blind-agenda-app.herokuapp.com/).
 
-## Leerdoelen
-- _Leren hoe je (design) principles in een ontwerp kan toepassen._
-- _User needs begrijpen en gebruiken in je ontwerp._
-- _Leren hoe je moet testen en de resultaten gebruiken voor het verbeteren van je ontwerp._
+### Controls
 
-[Rubric](https://docs.google.com/spreadsheets/d/1no32c9YyAP78VMcqfA5i5at2OrxP9ce1d8dVGnii4Vs/)
+- `arrow up` `arrow down` navigeren over dag/week/maand
+- `arrow left` `arrow right`**:**
 
+tab **week** navigeren over dagen 
 
+tab **maand** navigeren over trainingen/wedstrijden/periodes 
+- `enter` tab **maand** van maand naar maand
 
-## Planning
+## :performing_arts: User scenario
 
-| Planning  | Woensdag  |  Donderdag | Vrijdag  |
-|---|---|---|---|
-| <a href=#web-design---week-1>Week 1</a>  | Introductie, College Exclusive design + Briefing opdracht 1 <p>Aannames testen met echte mensen| Gastcollege _Usability and Accessibility_ van Marie van Driessche - VPRO <p>Coachingsgesprekken | Goede vrijdag  |
-| <a href=#web-design---week-2>Week 2</a>  | College Principles, User Needs & Testen <p>Prototype Testen met echte mensen |  Gastcollege Toegankelijkheid Johan Huijkman - Q42 en Roger Ravelli <p>Coachingsgesprekken | Feedbackgesprekken  |
-| <a href=#web-design---week-3>Week 3</a>  | College Web Design <p>Prototype testen met echte mensen | Gastcollege Experimental features van Léonie Watson - W3C <p>Coachingsgesprekken  | Feedbackgesprekken  |
-| Meivakantie |  |  |   |
-| <a href=#web-design---week-4>Week 4</a>  | Beoordelingsgesprekken | Beoordelingsgesprekken  | Beoordelingsgesprekken  |
+### Wie is de gebruiker?
+Dit product is ontwikkeld voor Larissa. Larissa is tandemwielrenner op topniveau, paardrij hobbyist, maar ze is ook heel slechtziend. Ze kan nog kleuren zien en constrasten tussen kleuren als het contrast groot genoeg is. Om deze rede gebruikt zij een screenreader, omdat haar ogen gebruiken heel veel moeite kost. 
 
+### Wat wilt de gebruiker op mijn site?
+Als Larissa haar schema zou willen doornemen, heeft zij haar tandempartner nodig. Dit zou zij alleen willen doen. Naast dat ze het niet kan lezen, is het schema erg onduidelijk. Zij zou het fijn vinden als ze alleen haar schema kan checken en dat de informatie te horen krijgt die duidelijk is. De informatie moet naast duidelijk, ook fijn verdeeld zijn in hapgrootte stukken.
 
+### Hoe gaat de gebruiker zijn doel bereiken?
+Omdat Larissa slechtziend tot blind is moet de informatie op de site gesproken worden met een screenreader of text-to-speech programma, hiervoor gebruik ik een text-to-speech programma. Verder vind ze het heel fijn om de pijlen toetsen te gebruiken om over een site te navigeren, dus zal dit worden toegepast.
 
+### Waarom zou de gebruiker mijn site bezoeken?
+Voor het zo fijn mogelijk krijgen van haar informatie, door gebruik te maken van de `pijlen` en `enter` toetsen. En omdat de informatie verdeeld is op een manier dat ze niet naar extra informatie hoeft te luisteren als ze dat niet wilt. 
 
-## Programma
+### scenario
+Tijdens het ontbijten checkt Sandra altijd wat er vandaag op de training behandelt gaat worden. Ze gaat naar haar agenda app en gaat naar de tab vandaag en checkt wat er op de planning staat. Ze hoort het type training en de tijden en bereidt zich voor op een intensieve training. Nu ze toch al op de site is, herinnert ze zich dat ze moet weten hoelaat ze donderdag klaar is met trainen, want ze had met vrienden afgesproken om te gaan paardrijden. Ze gaat naar de week tab en checkt wat ze donderdag op de planning heeft staan, en laat haar vriendinnen weten hoelaat ze kan afspreken. 
 
-### Web Design - Week 1
-Deze week krijg je een college over _Exclusive Design Principles_. Deze Principles ga je toepassen in de opdracht. Op woensdag gaan we kennis maken met de echte mensen voor wie we gaan ontwerpen. Je kan dan al een kleine interactieve demo maken om te testen.
+## :memo: Test voorbereiding
+De eerste test was vooral om Larissa wat beter te leren kennen en wat vragen te stellen over haar blindheid. Het Larissa team deed dit door eerst individueel vragen op te stellen en die daarna te vergelijken, zodat we niet allemaal de zelfde vragen stelde. Het vragen stellen deed voornamelijk een persoon en anderen konden bijspringen als ze verduidelijking nodig hadden. De antwoorden op deze vragen werden door Anouk genotuleerd in een Google word bestandje.  
 
+De rest van de tests waren het testen van de prototypes. Voor het gesprek met Larissa zette we allemaal de link van onze app in de slack groep, en Chelsea mailde deze lijst door naar Larissa. Larissa ging er dan een voor een doorheen. Ieder persoon kwam dan aan de beurt en kon zijn/haar app laten testen en vragen stellen.
 
-#### Woensdag 8 april
-Woensdag is de eerste les van het vak Web Design. Je krijgt een intro college over het vak en Vasilis gaat vertellen over _Exclusive Design_.
+### Test resultaten :microscope:
+De resultaten van de tests staan geschreven in mijn wiki: [Test resultaten](https://github.com/heralt/web-design-1920/wiki/Tests)
 
-- [Les 1 Introduktie en briefing opdracht 1]()
-- [College over Exclusive Design]()
+## :heavy_check_mark: Exclusive design principles
+Exclusive design principles zijn de principes die wij hebben gebruikt om een product te ontwikkelen van een persoon. De vier principes zijn: **study situation**, **ignore conventions**, **prioritise identity** en **add nonsense**. Deze zijn het tegenovergestelde van de inclusive design principles, waarbij een product voor meerdere mensen ontwikkeld is en dus voor meerdere mensen fijn in gebruik zou moeten zijn. 
 
-'s Middags gaan we kennismaken met mensen met wie jullie gaan samenwerken. Wie zijn deze mensen? Wat vinden ze leuk of juist niet? En hoe bedienen ze een computer?
+### study situation 
 
-1. Marie van Driessche om 14:00
-2. Larissa Klaassen om 14:00.
-3. Roger Ravelli om 14:00.
-4. Marijn Meijles om 16:00.
+ *Hiermee wordt bedoelt dat er gekeken moet worden naar naar de persoon zelf en hoe de persoon, jouw product en andere producten ervaart en gebruikt. Wat vinden ze fijn, wat vinden ze minder fijn etc. De resultaten van het observeren en vragen kunnen gebruikt worden om jouw product te ontwikkelen.*
 
+Tijdens de tests stelden we vragen en observeerde we hoe Larissa het gebruiken van het internet ervaart. De resultaten van de vragen en de opmerkelijke dingen die we gezien hebben, gebruikten wij om onze producten te ontwikkelen. Bijvoorbeeld, het viel mij op dat ze de snelheid van haar screenreader hoog had staan, dus in mijn text-to-speech programma staat de snelheid van de spraak op een hoog tempo.
 
+### Ignore conventions
+*Omdat er niet heelveel voor alleen blinde mensen sites ontwikkeld wordt, zijn er niet veel verschillende design principes die gebruikt kunnen worden tijdens het van een app voor hun. Hierdoor moet je dus zelf gaan experimenteren.*
 
-#### Donderdag 9 april
-Donderdag begint de les met een Q&A. Hoe gingen de gesprekken jullie mensen? Hoe kun je testen nu we remote werken? Bedenk alvast vragen en opmerkingen om te bespreken.
-Marie van Driessche van de VPRO geeft een gastcollege over Design.
+Mijn experiment was het gebruiken van een text-to-speech programma. Zelf vond ik het gebruiken van de screenreader heel vervelend, want het gaf informatie over de html tags en de knoppen waar de focus op lag. Dit was informatie die de gebruikers ervaring niet beter maakte. Door het gebruiken van een tts programma word alleen de informatie aan de gebruiker gegeven en verder niets. 
 
-Deze les gaan we onderstaande artikelen bespreken:
-- [Exclusive Design van Vasilis van Gemert](https://exclusive-design.vasilis.nl/)
+### Prioritise identity
+*Je kan de identiteit van een persoon gebruiken om een product te ontwikkelen. Karakter eigenschappen, hobbies etc.*
 
+Tijdens het beter leren kennen en testen hebben we aan Larissa gevraagd wat zei fijn vind tijdens het gebruiken van andere apps, wat zei belangrijke informatie vind in haar agenda en verder ook gevraagd naar haar hobbies. Dit hebben we dan gebruikt om product te ontwikkelen dat helemaal op haar is afgestemd. 
+En ze vind paarden leuk.
 
-In de middag zijn er coachingsgesprekken in groepjes.
+### Add nonsense
+*Dit betekent dat je tijdens het ontwikkelen, kleine features kan toevoegen die niet veel toegevoegde waarde hebben, maar wel leuk zijn.*
 
-#### Vrijdag 10 april
-Vrijdag is het Goede vrijdag. Geen les.
-
-
-
-
-### Web Design - Week 2
-Deze week heb je het tweede gesprek met je mens. Wat ga je testen? Wat wil je weten?
-
-- [College over Principles, User needs & Testen]()
-
-
-
-#### Woensdag 15 april
-Woensdag krijg je een college over principles, user needs & testen.
-
-- [Les 2 principles, user needs & testen]()
-
-Deze les gaan we dit artikel bespreken:
-- [Design for Both Needs and Wants: Applying Anderson’s User Experience Hierarchy of Needs](https://thevisualcommunicationguy.com/2018/11/08/design-for-both-needs-and-wants-applying-andersons-user-experience-hierarchy-of-needs/)
--  [10 Usability Lessons van Steve Krug](https://www.uxbooth.com/articles/10-usability-lessons-from-steve-krugs-dont-make-me-think/)
-
-'s Middags gaan we testen.
-
-1. Marie van Driessche om 14:00
-2. Larissa Klaassen om 14:00.
-3. Roger Ravelli om 14:00.
-4. Marijn Meijles om 16:00.
-
-
-#### Donderdag 16 april
-Donderdag begint de les met een Q&A. Tips en triks voor remote testen?
-Johan Huijkman van Q42 geeft samen met Roger Ravelli een gastcollege over toegankelijkheid.
-
-In de middag zijn er coachingsgesprekken in groepjes.
-
-
-Deze les gaan we dit artikel bespreken:
-- [How User Scenarios Help To Improve Your UX van Sabina Idler](https://usabilla.com/blog/how-user-scenarios-help-to-improve-your-ux/)
-
-
-#### Vrijdag 17 april
-Vrijdag zijn er feedbackgesprekken met Vasilis en Koop.
-
-
-
-
-
-
-### Web Design - Week 3
-In week 3 gaan we verder met testen, itereren en reflecteren. Woensdag is de laatste sessie met je mens.
-
-
-#### Woensdag 22 april
-Woensdag beginnen we met een college. Dan gaan we twee artikelen bespreken.
-
-- [Les 3 college Web Design]()
-
-
-Lezen:
-- [Design for Fingers, Touch, and People van Steven Hoober](https://www.uxmatters.com/mt/archives/2017/03/design-for-fingers-touch-and-people-part-1.php)
-
-
-
-'s Middags gaan we voor de laatste keer testen.
-
-1. Marie van Driessche om 14:00
-2. Larissa Klaassen om 14:00.
-3. Roger Ravelli om 14:00.
-4. Marijn Meijles om 16:00.
-
-
-#### Donderdag 23 april
-Donderdag begint de les met een Q&A.
-Léonie Watson van W3C geeft een gastcollege over experimental features.
-
-In de middag zijn er weer coachingsgesprekken in groepjes.
-
-
-#### Vrijdag 24 april
-Vrijdag zijn er feedbackgesprekken met Vasilis en Koop.
-
-
-
-
-### Web Design - Week 4
-
-Deze week hebben we een gesprek waarin we je vorderingen en bevindingen bespreken. We verwachten dat je op Github je tests en iteraties hebt beschreven. Belangrijk is dat je reflecteert op de leerdoelen van het vak.
-Lees hier de [criteria van opdracht 1](Opdracht1.md)
-
-### Agenda webapp voor Larissa(blind)
-
-
-#### Het idee
-Het idee is een product waarbij Larissa met de pijlen knoppen de site kan gebruiken. Als zij dan op een knop staat
-moet door de browser gezegd worden waar ze op staat.
-
-<!-- Add a link to your live demo in Github Pages 🌐-->
-
-<!-- ☝️ replace this description with a description of your own work -->
-
-<!-- replace the code in the /docs folder with your own, so you can showcase your work with GitHub Pages 🌍 -->
-
-<!-- Add a nice poster image here at the end of the week, showing off your shiny frontend 📸 -->
-
-<!-- Maybe a table of contents here? 📚 -->
-
-<!-- How about a section that describes how to install this project? 🤓 -->
-
-<!-- ...but how does one use this project? What are its features 🤔 -->
-
-<!-- Maybe a checklist of done stuff and stuff still on your wishlist? ✅ -->
-
-<!-- How about a license here? 📜 (or is it a licence?) 🤷 -->
+Larissa vond het leuk als er een paar leuke berichten in de app zitten. Maar niet te veel, want dat kan het gebruiken van de app vervelend maken. 
