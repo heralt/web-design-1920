@@ -15,7 +15,7 @@ De persoon waarvoor ik dit product ontwikkel is Larissa. Zij is blind en tandemw
 - [Test resultaten](#Test-resultaten)
 - [Exclusive design principles](#Exclusive-design-principles)
 
-### Link 
+## Link 
 agenda app: [link](https://blind-agenda-app.herokuapp.com/).
 
 ### Controls
@@ -29,10 +29,10 @@ tab **maand** navigeren over trainingen/wedstrijden/periodes
 - `enter` selecteert een element
 tab **maand** van maand naar maand
 
-### User scenario
+## User scenario
 Tijdens het ontbijten checkt Sandra altijd wat er vandaag op de training behandelt gaat worden. Ze gaat naar haar agenda app en gaat naar de tab vandaag en checkt wat er op de planning staat. Ze hoort het type training en de tijden en bereidt zich voor op een intensieve training. Nu ze toch al op de site is, herinnert ze zich dat ze moet weten hoelaat ze donderdag klaar is met trainen, want ze had met vrienden afgesproken om te gaan paardrijden. Ze gaat naar de week tab en checkt wat ze donderdag op de planning heeft staan, en laat haar vriendinnen weten hoelaat ze kan afspreken. 
 
-### Test voorbereiding
+## Test voorbereiding
 De eerste test was vooral om Larissa wat beter te leren kennen en wat vragen te stellen over haar blindheid. Het Larissa team deed dit door eerst individueel vragen op te stellen en die daarna te vergelijken, zodat we niet allemaal de zelfde vragen stelde. Het vragen stellen deed voornamelijk een persoon en anderen konden bijspringen als ze verduidelijking nodig hadden. De antwoorden op deze vragen werden door Anouk genotuleerd in een Google word bestandje.  
 
 De rest van de tests waren het testen van de prototypes. Voor het gesprek met Larissa zette we allemaal de link van onze app in de slack groep, en Chelsea mailde deze lijst door naar Larissa. Larissa ging er dan een voor een doorheen. Ieder persoon kwam dan aan de beurt en kon zijn/haar app laten testen en vragen stellen.
