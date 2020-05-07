@@ -25,9 +25,9 @@ De persoon waarvoor ik dit product ontwikkel is Larissa. Zij is blind en tandemw
 - `arrow up` `arrow down` navigeren over dag/week/maand
 - `arrow left` `arrow right`**:**
 
-tab **week** navigeren over dagen 
+tab **week** - navigeren over dagen 
 
-tab **maand** navigeren over trainingen/wedstrijden/periodes 
+tab **maand** - navigeren over trainingen/wedstrijden/periodes 
 - `enter` tab **maand** van maand naar maand
 - `space` pauses and resumes speech
 
