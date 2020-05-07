@@ -5,7 +5,7 @@ Web Design gaat over het ontwerpen en testen van Interactie. Het voordeel van ee
 In het vak Web design gaan we dingen ontwerpen voor echte mensen. Is er goede interactie? Kan je 'mens' je product op een prettige manier bedienen? Wat voor principes heb je gebruikt en getest? En zit er wel _nonsense_ in?
 
 ## Agenda webapp voor Larissa
-Het doel van webdesign is het ontwikkelen van een applicatie voor een individu. Tijdens het ontwikkelen moet het product constant getest en geitereerd worden. Dit zou ervoor moeten zorgen dat aan het einde van dit vak er een product staat dat precies is afgestemd op de persoon waarvoor het ontwikkeld is. 
+Het doel van het vak webdesign is het ontwikkelen van een applicatie voor een persoon. Tijdens het ontwikkelen moet het product constant getest en geitereerd worden. Dit zou ervoor moeten zorgen dat aan het einde van dit vak er een product staat dat precies is afgestemd op de persoon waarvoor het ontwikkeld is. 
 
 De persoon waarvoor ik dit product ontwikkel is Larissa. Zij is blind en tandemwielrenner op top niveau. Dit jaar zou ze meedoen aan de olympische spelen, dat is het niveau waarop zei fietst. Als topsporter heeft zei een druk schema, want je bent constant aan het trainen. Zei heeft een schema dat ze wekelijks krijgt en een jaar planning. Dit is waar het probleem ligt, zei kan de schema's niet in haar eentje doornemen. Dit doet ze momenteel met haar tandem partner. Ik heb een manier bedacht waarbij ze wel in haar eentje de schema's kan doornemen.
 
