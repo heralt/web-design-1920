@@ -21,7 +21,7 @@ agenda app: [link](https://blind-agenda-app.herokuapp.com/).
 ### Controls
 
 - `arrow up` `arrow down` navigeren over dag/week/maand
-- `arrow left` `arrow right`
+- `arrow left` `arrow right`**:**
 
 tab **week** navigeren over dagen 
 
